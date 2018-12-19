@@ -1,0 +1,46 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+/*
+ * Imports
+ */
+@import url(//fonts.googleapis.com/css?family=Bitter:400,700,400italic|Signika:400,300,600,700);
+@import url(//weloveiconfonts.com/api/?family=entypo);
+/* entypo */
+[class*="entypo-"]:before {
+  font-family: 'entypo', sans-serif;
+}
+
+/*
+ * Mixins
+ */
+@mixin clearfix() {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/*
+ * Variables
+ */
+$gutter-s: 20px;
+$gutter-m: 40px;
+$gutter-l: 80px;
+
+$font-family-sans: 'Signika', sans-serif;
+$font-family-serif: 'Bitter', serif;
+
+$color-alpha: #00001E; // Black
+$color-beta: #26A3DB; // Blue
+$color-gamma: #F9A326; // Orange
+$color-delta: #321d4f; // Purple
+
+// Import partials from `sass_dir` (defaults to `_sass`)
+@import
+  "icomoon",
+  "grid",
+  "application",
+  "media-queries"
+;
