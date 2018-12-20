@@ -148,9 +148,9 @@ categories =
 
 
 github =
-  username: "novoda"
+  username: "opencommerce"
   api_url: "https://api.github.com"
-  at: "077be9086e2ef3479e91c8b7682dfb2fcd0d0112"
+  at: "3180a27c87781619ab4de6ccbd1f0e4e17eb908b"
   cat_temp: ''
   cat_key_temp: ''
   repo_count: 0
