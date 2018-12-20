@@ -150,7 +150,7 @@ categories =
 github =
   username: "opencommerce"
   api_url: "https://api.github.com"
-  at: "3180a27c87781619ab4de6ccbd1f0e4e17eb908b"
+  at: "d4d519acc50af44347411a0b2ba6193f6c7e8bcb"
   cat_temp: ''
   cat_key_temp: ''
   repo_count: 0
